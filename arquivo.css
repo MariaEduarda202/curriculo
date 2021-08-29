@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 11px;
+}
+
+.infos img{
+    width: 10vw;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.nomes {
+    display: flex;
+    align-items: center;
+}
+
+.nomes h1{
+    width: 50%;
+    margin-top: 70px;
+    padding-left: 15px;
+    color: #19304F;
+    font-size: 30px;
+}
+
+.nomes i{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.redes img{
+    width: 20px;
+    margin-top: 8px;
+    padding-left: 15px;
+}
+
+.redes{
+    text-align: center;
+}
+
+.maisinfos p{
+    width: 58vw;
+}
+
+.maisinfos{
+    color: #14273f;
+    margin-top: 50px;
+    margin-left: 25px;
+    width: 68%;
+}
+
+
+a{
+    text-decoration: none rgb(230, 16, 16);
+    color: #7796c0;
+}
+
+a:hover{
+    color: #a215bb;
+}
+
+/* barra azul lateral */
+.endereço p{
+    width: 190px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.endereço h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.infobox{
+    position: relative;
+    background:  #19304F;
+    height: 100;
+    min-width: 350px;
+    margin-bottom: -17px;
+    margin-top: -17px;
+    margin-right: -15px;
+}
+
+.conhecimentos{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 180px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.conhecimentos h1{
+    color: #fff;
+}
+.conhecimentos dt{
+    text-align: start;
+    color: #fff;
+    border-bottom: 4px solid #fff;
+}
+
+footer{
+    background: linear-gradient(188deg, #14273f, #2e5385);
+    height: 50px;
+    padding: 0;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -17px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+}
+
+/* mobile */
+@media(max-width: 623px){
+    main{
+        display: block;
+    }
+
+    .maisinfos p{
+        width: 80vw;
+    }
+
+    ul li{
+        width: 80vw;
+    }
+
+    .infobox{
+        width: 102vw;
+        margin: 0;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        margin-right: -10px;
+        margin-left: -19px;
+        margin-bottom: -17px;
+    }
+    .endereço p, h1{
+        color: #fff;
+    }
+
+    .infobox p{
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .conhecimentos{
+        text-align: center;
+    }
+
+    .conhecimentos h1{
+        padding: 25px;
+        margin: auto;
+    }
+    .conhecimentos dt{
+        padding: 2px;
+        border-bottom: 1px solid #fff;
+    }
+    .conhecimentos {
+        padding-bottom: 25px;
+    }
+
+    footer{
+        margin-right: -20px;
+    }
+}
